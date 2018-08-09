@@ -1,0 +1,138 @@
+.box-blue{
+	display: flex;
+	justify-content: space-between;
+	height:4.5rem; 
+	line-height:4.5rem;
+	background-image:url(../img/R_k_sep_png.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:white;
+}
+.tou-img{ 
+	border-radius:3.5rem;
+	margin-top:0.3rem;
+	width:4rem;
+	height:4rem;
+}
+.message{
+	font-size:2rem;
+	font-weight: 100;
+}
+.jia{
+	font-size:2rem;
+	width:5rem;
+}
+.img-1{
+	width:5rem;
+	text-align: end;
+	margin-top:-0.2rem;
+}
+.input-search{
+	border-radius:0.5rem;
+	width:92%;
+	margin: auto;
+	background:#f3f3f3;
+	height:2.5rem;
+	margin-top:1rem;
+	display: flex;
+	font-weight: 100;
+	font-size:1.7rem;
+	line-height:2.8rem;
+}
+.input-search img{
+	width:1.8rem;
+	height:1.8rem;
+	margin-top:-0.2rem;
+}
+.search-box{
+	margin: auto;
+}
+.friend-box{
+	height:4rem;
+	line-height:4rem;
+	display: flex;
+	border-bottom:1px solid silver;
+}
+.friend-img{
+	margin-top:-0.2rem;
+}
+.new-user{
+	width:90%;
+	padding-left:1.6rem;
+	font-size:2rem;
+}
+.friend-max-box{
+	margin-top:1rem;
+}
+.row-text{
+	font-size:1.8rem;
+	display: flex;
+	justify-content: space-around;
+	height:4rem;
+	line-height:4rem;
+	border:1px solid red;
+}
+.group-row{
+	height:4rem;
+	line-height:4rem;
+	display: flex;
+	border-bottom:1px solid silver;
+}
+.group-img{
+	padding-left:1.6rem;
+	margin-top:1.3rem;
+}
+.tebie{
+	width:74%;
+	font-size:1.9rem;
+}
+.zaixian{
+	font-size:1.7rem;
+	color:#919191;
+	width:11%;
+	text-align: end;
+}
+.overflow-box{
+	overflow: auto;
+	height:48.7rem;
+}
+.friend-user{
+	padding-left: 2rem;
+	margin: auto;
+	display: flex;
+	border-bottom:1px solid silver;
+	height:5.5rem;
+	padding-top:0.5rem;
+}
+.friend-user-box{
+}
+.friend-img2{
+	border-radius: 3rem;
+	width:4rem;
+	height:4rem;
+}
+.group-user{
+	margin-left:0.7rem;
+}
+.user-img{
+	margin-top:-0.2rem;
+	color:#919191;
+}
+.kong{
+	color:#919191;
+}
+ .group-user div{
+ 	font-size:1.8rem;
+ }
+.footer-box div{
+	width:5.5rem;  
+	text-align: center;
+	font-size: 1.5rem;
+	margin-top:0.5rem;
+}
+.footer-box{
+	display: flex;
+	border-top:1px solid silver;
+	justify-content: space-between;
+	margin-top:0.5rem;
+}

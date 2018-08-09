@@ -1,0 +1,39 @@
+.pass-text{
+	font-size:3.5rem;
+	text-indent:3rem;
+}
+.pass-num{
+	margin-left:3rem;
+	font-size:1.7rem;
+}
+.input-box{
+	margin-left:3rem;
+	
+}
+.input-box div{
+	border-bottom:1px solid silver;
+	width:28.2rem;
+	margin-top:0.7rem;
+}
+.input-box input{
+	border:0px; 
+	font-size:1.8rem;
+	margin-top:1rem;
+	height:30px;
+	outline: none;
+}
+.return{
+	font-size:2.2rem;
+	color:silver;
+	margin-left:1rem;
+	margin-top:1rem;
+}
+.next{
+	width:82%;
+	line-height:4rem;
+	text-align: center;
+	border:1px solid silver;
+ 	margin-left:3rem;
+	margin-top:2rem;
+	cursor: pointer;
+}

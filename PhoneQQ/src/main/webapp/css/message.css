@@ -1,0 +1,39 @@
+.phone-text{
+	font-size:3.5rem;
+	text-indent:3rem;
+}	
+.register-tetx{
+	font-size:1.7rem;
+	margin-left:3rem;
+}
+.phone{
+	color: darkgoldenrod;
+}
+.message-input{
+	border-bottom:1px solid silver;
+	width:80%;
+	margin-left:3rem;
+	margin-top:1rem;	
+	font-size:3rem;
+}
+.message-input input{
+	border:0px;
+	outline: none;
+}
+.new-message{
+	text-indent: 3.2rem;
+	color:silver;
+	font-size:2rem;
+	margin-top:1rem;
+}
+.return{
+	font-size:2.2rem;
+	color:silver;
+	margin-left:1rem;
+	margin-top:1rem;
+}
+.text{
+	margin-left: 3rem;
+	font-size:1.7rem;
+	margin-top:1.5rem;
+}

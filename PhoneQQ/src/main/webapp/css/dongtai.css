@@ -1,0 +1,96 @@
+.box-blue{
+	display: flex;
+	justify-content: space-between;
+	height:4.5rem; 
+	line-height:4.5rem;
+	background-image:url(../img/R_k_sep_png.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:white;
+}
+.tou-img{ 
+	border-radius:3.5rem;
+	margin-top:0.3rem;
+	width:4rem;
+	height:4rem;
+}
+.message{
+	font-size:2rem;
+	font-weight: 100;
+}
+.jia{
+	font-size:2rem;
+	width:5rem;
+}
+.input-search{
+	border-radius:0.5rem;
+	width:92%;
+	margin: auto;
+	background:#f3f3f3;
+	height:2.5rem;
+	margin-top:1rem;
+	display: flex;
+	font-weight: 100;
+	font-size:1.7rem;
+	line-height:2.8rem;
+}
+.input-search img{
+	width:1.8rem;
+	height:1.8rem;
+	margin-top:-0.2rem;
+}
+.search-box{
+	margin: auto;
+}
+ .img-1{
+	width:5rem;
+	text-align: end;
+	margin-top:-0.2rem;
+}
+.dong-box{
+	display: flex;
+	justify-content: space-around;
+}
+.dong-box div{
+	text-align: center;
+	font-size:1.6rem;
+}
+.row-box{
+	display: flex;
+	font-size:2.2rem;	
+	height:4rem;
+	line-height:4rem;
+	border-bottom:1px solid silver;
+}
+.row-img{
+	margin-top:-0.2rem;
+}
+.row-gram{
+	width:17%;
+	margin-left:2rem;
+	line-height:3rem;
+	border:1px solid red;
+	margin-top:0.4rem;
+}
+.gram-text{
+	width:71%;
+}
+.group-user div{
+ 	font-size:1.8rem;
+ }
+.footer-box div{
+	width:5.5rem;  
+	text-align: center;
+	font-size: 1.5rem;
+	margin-top:0.5rem;
+}
+.footer-box{
+	display: flex;
+	border-top:1px solid silver;
+	justify-content: space-between;
+	margin-top:0.5rem;
+}
+.columu-box{
+	height:47.7rem;
+	overflow: auto;
+}

@@ -1,0 +1,135 @@
+.box-blue{
+	display: flex;
+	justify-content: space-between;
+	height:4.5rem; 
+	line-height:4.5rem;
+	background-image:url(../img/R_k_sep_png.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:white;
+}
+.img-1{
+	width:5rem;
+	text-align: end;
+	margin-top:-0.2rem;
+}
+.tou-img{ 
+	border-radius:3.5rem;
+	margin-top:0.3rem;
+	width:4rem;
+	height:4rem;
+}
+.message{
+	font-size:2.2rem;
+	font-weight: 100;
+}
+.jia{
+	width:3.8rem;
+}
+.input-search{
+	border-radius:0.5rem;
+	width:92%;
+	margin: auto;
+	background:#f3f3f3;
+	height:2.5rem;
+	margin-top:1rem;
+	display: flex;
+	font-weight: 100;
+	font-size:1.7rem;
+	line-height:2.8rem;
+}
+.input-search img{
+	width:1.8rem;
+	height:1.8rem;
+	margin-top:-0.2rem;
+}
+.search-box{
+	margin: auto;
+}
+.footer-box div{
+	width:5.5rem;  
+	text-align: center;
+	font-size: 1.5rem;
+	margin-top:0.5rem;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+ul li{
+	list-style: none;
+}
+.friend-name{
+}
+.friend-tou{
+	border-radius:3rem;
+	width:4rem;  
+	height:4rem;
+	margin-top:-0.2rem;
+	}
+.footer-box{
+	display: flex;
+	border-top:1px solid silver;
+	justify-content: space-between;
+}
+.section-max-box{
+	height:48rem;
+	overflow:auto;
+}
+.section-box{
+	
+}
+.row-box{
+	overflow: hidden;
+}
+.row{
+	margin: 0px;
+	padding-left:1.6rem;
+	display: flex;
+	height:5.5rem;
+	padding-top:1rem;
+	min-width:100%;
+}
+.friend-box{
+	font-size:1.9rem;
+	margin-left:1rem; 
+}
+.friend-name-box{
+	display: flex;
+	margin-top:-0.5rem;
+}
+.friend-message{
+	color:#0F0F0F;
+	font-size:1.8rem;
+}
+.friend-time{
+	font-size: 1.8rem;
+	line-height:2.3rem;
+	position:absolute;
+	right:1.3rem;
+}
+.friend-delete{
+	min-width:30%;
+	font-size:2rem;
+	color:white;
+	background:#d00;
+	text-align: center;
+	line-height:5.5rem;
+}
+.new-message{
+	display: flex;
+}
+.row{
+	position:relative;
+}
+.new-num{
+	border-radius: 1.9rem;
+	width:2rem;
+	height:1.9rem;
+	line-height:1.9rem;
+	background: red;
+	color:white;
+	text-align: center;
+	position:absolute;
+	right:2rem;
+}

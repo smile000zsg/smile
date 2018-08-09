@@ -1,0 +1,79 @@
+.box{
+	display: flex;
+	margin-top:10rem;
+	margin-left:3rem;
+}
+.QQ-text{
+	font-size:3rem; 
+	color:white;
+	margin-left:0.5rem;
+}
+.img img{
+	border-radius:3.5rem;
+	margin-top:0.3rem;
+	width:3.5rem;
+	height:3.5rem;
+}
+.box-2{
+	font-size:2.5rem;
+	display: flex;
+}
+.box-x{
+	border-bottom:1px solid white;
+ 	width:85%;
+ 	margin: auto;
+ 	margin-top:0.3rem;
+}
+.input-user input{
+	border:0px;
+	background:0px;
+	margin-top:1rem;
+	color:white;
+	outline: none;
+	padding-left:2.6rem;
+}
+.login-button{
+	width:86%;
+	line-height:4rem;
+	text-align: center;
+ 	margin-left:2.4rem;
+	margin-top:2rem;
+	background:rgba(0,191,255,0.8);
+	color:white;
+	font-size:2rem;
+	cursor: pointer;
+	border:0px;
+}
+ 
+.new-reg{
+	width:90%;
+	justify-content: space-around;
+	display: flex;
+	margin:auto;
+	color:#4896c6;
+	font-size:1.7rem;
+	margin-top:1rem;
+}
+.pass{
+	width:14rem;
+}
+.new-user{
+	text-align: end;
+	width:14rem
+}
+body{
+	background-image:url(../img/back.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}	
+.xieyi{
+	margin: auto;
+	text-align: center;
+	margin-top:22rem;
+	color:white;
+	font-size:1.5rem;
+	left:21%;
+}
+.fuwu{
+	color:#00bee5;
+}

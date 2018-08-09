@@ -1,0 +1,59 @@
+html{
+	width:100%;
+}
+h2{
+	color:#000000;
+}
+.phone-text{
+	font-size:3.5rem;
+	text-indent:3rem;
+}
+.return{
+	font-size:2rem;
+	color:silver;
+	margin-left:1rem;
+	margin-top:1rem;
+}
+.register-tetx{
+	font-size:1.7rem;
+	margin-left:3rem;
+}
+.address-tetx{
+	margin-left:1.7rem;
+	font-size:2rem;
+	
+}
+.address-tetx input{
+	 background:white;
+	 border:0;
+	 outline: none;
+}
+.china-text{
+	color:black;
+	font-size:2rem;
+}
+.add-box{
+	line-height:4.4rem;
+	width:90%;
+	margin: auto;
+	border-bottom: 1px solid silver;
+	margin-top:1rem;
+}
+.Num{
+	text-indent:6rem;
+	font-size:2.2rem;
+	line-height:4.4rem;
+	margin-top:0.5rem;
+	width:90%;
+	margin: auto;
+	border-bottom: 1px solid silver;
+}
+.next{
+	width:90%;
+	line-height:4rem;
+	text-align: center;
+	border:1px solid silver;
+ 	margin-left:1.7rem;
+	margin-top:2rem;
+	cursor: pointer;
+}
