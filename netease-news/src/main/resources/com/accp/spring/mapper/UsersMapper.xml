@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "mybatis-3-mapper.dtd" "mybatis-3-mapper.dtd" >
+<mapper namespace="com.accp.spring.mapper.UsersMapper">
+	<!-- 用户注册 -->
+	<insert id="insertUsers">
+		INSERT INTO Users(userName,password,nickName,createTime,headImg)
+		VALUES(#{userName},#{password},#{nickName},NOW(),#{headImg})
+	</insert>
+	<!-- 用户登陆 -->
+	<select id="selectUsers" resultType="Users">
+		SELECT * FROM Users where userName=#{userName} and password=#{password}
+	</select>
+</mapper>

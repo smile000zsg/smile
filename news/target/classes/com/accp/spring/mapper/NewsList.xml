@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "mybatis-3-mapper.dtd" "mybatis-3-mapper.dtd" >
+<mapper namespace="com.accp.spring.mapper.NewsList">
+<!-- news查询  -->
+	<resultMap type="NewsTable" id="newsInfo">
+		<id column="newsId" property="newsId"/>
+			<result column="newsTheme" property="newsTheme"/>
+			<result column="newsContent" property="newsContent"/>
+			<result column="releaseTime" property="releaseTime"/>
+			<result column="userId" property="userId"/>
+			<result column="newsTypeId" property="newsTypeId"/>
+			<result column="newsImgId" property="newsImgId"/>
+		<collection property="users" ofType="Users">
+			<id column="userId" property="userId"/>
+			<result column="userName" property="userName"/>
+			<result column="password" property="password"/>
+			<result column="nickName" property="nickName"/>
+			<result column="createTime" property="createTime"/>
+			<result column="headImg" property="headImg"/>
+		</collection>
+	</resultMap>
+	<select id="selectInfo" resultMap="newsInfo">
+		SELECT newsTable.`newsId`,`newsTheme`,`newsTheme`,`newsContent`
+		,img.`NewsImg`,Users.`userName`,users.`nickname` FROM  newsTable 
+		LEFT JOIN img ON img.`newsId`=newsTable.`newsId`
+		LEFT JOIN Users ON newsTable.`userId`=Users.`userId`
+		WHERE newsTable.`newsId`=#{newsId}
+	</select>
+	<!-- 评论查询 -->
+	<resultMap type="Discuss" id="userDiscuss">
+		<id column="discussId" property="discussId"/>
+			<result column="newsId" property="newsId"/>
+			<result column="CommentText" property="CommentText"/>
+			<result column="userId" property="userId"/>
+			<result column="DiscussTime" property="DiscussTime"/>
+		<collection property="users" ofType="Users">
+			<id column="userId" property="userId"/>
+			<result column="userName" property="userName"/>
+			<result column="password" property="password"/>
+			<result column="nickName" property="nickName"/>
+			<result column="createTime" property="createTime"/>
+			<result column="headImg" property="headImg"/>
+		</collection>
+	</resultMap>
+	<select id="selectDiscuss" resultMap="userDiscuss">
+		SELECT newsTable.`newsId`,commentText,discussTime,Users.`nickname`
+		 FROM Discuss,newsTable,Users
+		WHERE Discuss.`newsId`=newsTable.`newsId` AND Discuss.`userId`=Users.`userId`
+		AND newsTable.`newsId`=#{newsId}	
+	</select>
+	<!-- 回复查询 -->
+	<resultMap type="Reply" id="replyUser">
+		<id column="replyId" property="replyId"/>
+			<result column="userId" property="userId"/>
+			<result column="pasvuserId" property="pasvuserId"/>
+			<result column="replycontent" property="replycontent"/>
+			<result column="replytime" property="replytime"/>
+			<result column="discussId" property="discussId"/>
+		<collection property="users" ofType="Users">
+			<id column="userId" property="userId"/>
+			<result column="userName" property="userName"/>
+			<result column="password" property="password"/>
+			<result column="nickName" property="nickName"/>
+			<result column="createTime" property="createTime"/>
+			<result column="headImg" property="headImg"/>
+		</collection>
+	</resultMap>
+	<select id="selectReply" resultMap="replyUser">
+		SELECT Discuss.`newsId`,Replycontent,Replytime,
+		Discuss.`CommentText`
+		FROM Reply,Discuss WHERE Discuss.`userId`=reply.`UserId`
+		AND reply.`DiscussId`=#{DiscussId}
+	</select>
+</mapper>
